@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Relay.pkg</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>11725AA9F581211675C8E94FD9A5B790836244DA</string>
+				<key>dateExpires</key>
+				<string>6/4/27</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>com.apple.application-identifier</key>
+				<string>Q5VAMXPYZN.com.asherbloom.Relay</string>
+				<key>com.apple.developer.icloud-container-environment</key>
+				<string>Production</string>
+				<key>com.apple.developer.icloud-container-identifiers</key>
+				<array>
+					<string>iCloud.com.asherbloom.Relay</string>
+				</array>
+				<key>com.apple.developer.icloud-services</key>
+				<array>
+					<string>CloudDocuments</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Q5VAMXPYZN</string>
+				<key>com.apple.developer.ubiquity-container-identifiers</key>
+				<array>
+					<string>iCloud.com.asherbloom.Relay</string>
+				</array>
+				<key>com.apple.security.app-sandbox</key>
+				<true/>
+				<key>com.apple.security.device.audio-input</key>
+				<true/>
+				<key>com.apple.security.files.bookmarks.app-scope</key>
+				<true/>
+				<key>com.apple.security.files.user-selected.read-write</key>
+				<true/>
+				<key>com.apple.security.network.client</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Relay.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>09aabd34-f8be-40ca-a491-6d9e8f321b7a</string>
+				<key>dateExpires</key>
+				<string>6/4/27</string>
+				<key>name</key>
+				<string>Mac Team Store Provisioning Profile: com.asherbloom.Relay</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Q5VAMXPYZN</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

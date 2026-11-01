@@ -1,0 +1,96 @@
+{
+  "features" : [
+    "specular-location"
+  ],
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.03922,0.29412,0.33333,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "extended-srgb:0.57647,0.61569,0.62745,1.00000"
+              }
+            }
+          ],
+          "glass" : false,
+          "image-name" : "01-Transcript-Lines.svg",
+          "name" : "Transcript lines"
+        }
+      ],
+      "name" : "Transcript lines",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "extended-srgb:0.95686,0.95686,0.93333,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "02-Written-Record.svg",
+          "name" : "Written record"
+        }
+      ],
+      "name" : "Written record",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.12
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.03
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "extended-srgb:0.43529,0.83137,0.75686,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "03-Live-Speech.svg",
+          "name" : "Live speech"
+        }
+      ],
+      "name" : "Live speech",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.1
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.12
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [
+      "macOS"
+    ]
+  }
+}

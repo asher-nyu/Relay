@@ -1,0 +1,15 @@
+Relay Device Mockup
+4000 × 2662 pixels
+
+Relay Device Mockup.svg is self-contained. Its two screenshots and Apple bezels are embedded, so it can be moved or shared as a single file.
+
+Relay Device Mockup — Linked.svg uses the files in Screens and Bezels. To swap a screenshot, replace its PNG in Screens and reopen the linked SVG. Keep the MacBook screenshot at 3456:2234 and the iMac screenshot at 16:9; the layout preserves image proportions.
+
+The background is its own named layer in both SVGs. Edit or replace that layer independently of the devices. Each device also has separate screen and hardware groups.
+
+The device frames are Apple's unmodified original artwork from Apple Design Resources: MacBook Pro M5 16-inch Space Black and iMac M4 24-inch Green. The MacBook is placed in the foreground over the iMac’s lower-left area. Each device retains its original proportions; the laptop is enlarged to establish the foreground. Both screens’ main content remains visible.
+
+The iMac screen is a new native screenshot of Relay's new-conversation page. Only Relay and wallpaper appear. The MacBook uses the supplied Design Review screenshot. Source screenshot files are preserved as PNGs.
+
+Reference: https://developer.apple.com/design/resources/
+Apple artwork guidelines: https://developer.apple.com/app-store/marketing/guidelines/

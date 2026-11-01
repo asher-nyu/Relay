@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-21T02:43:42.366661+00:00",
+  "version": "1.0",
+  "build": "1",
+  "appStoreId": "6825155109",
+  "bundleIdentifier": "com.asherbloom.Relay",
+  "architecture": "arm64",
+  "minimumMacOS": "26.0",
+  "distributionSignatureValid": true,
+  "productionICloud": true,
+  "debuggerEntitlement": false,
+  "unitTests": {
+    "passed": 310,
+    "suites": 31
+  },
+  "uiTests": {
+    "passedAcrossFullRunAndTargetedRecheck": 26,
+    "fullRunPassed": 24,
+    "menuRecheckPassed": 2,
+    "remainingFailures": 0
+  },
+  "websites": [
+    {
+      "url": "https://relay.asher-nyu.com/",
+      "status": 200,
+      "verifiedTLS": true
+    },
+    {
+      "url": "https://relay.asher-nyu.com/privacy",
+      "status": 200,
+      "verifiedTLS": true
+    }
+  ],
+  "packageSHA256": "41ef3aa65527c0f4145290d69354ddf7f241cf996ff1351bba786f9c3257995f",
+  "gitOperationsPerformed": false,
+  "releaseStatus": "Waiting for Review",
+  "signatureVerificationMethod": "Signed installer expanded to an isolated local temporary directory, followed by codesign --verify --deep --strict",
+  "submissionConfirmedAt": "2026-10-21T02:44:32.599498+00:00"
+}

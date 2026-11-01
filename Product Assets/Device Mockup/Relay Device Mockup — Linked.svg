@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="4000" height="2662" viewBox="0 0 4000 2662" version="1.1"
+     role="img" aria-labelledby="mockup-title mockup-description">
+  <title id="mockup-title">Relay · MacBook Pro and iMac</title>
+  <desc id="mockup-description">Relay on a Space Black 16-inch MacBook Pro and green 24-inch iMac. The MacBook shows Design Review; the iMac shows the new-conversation screen. Original Apple product bezels, real Relay screenshots, and an independently editable background. Canvas: 4000 by 2662. The MacBook sits in the foreground over the iMac’s lower-left area. Each device retains its native proportions. Screens are placed without stretching.</desc>
+  <metadata>
+    Source bezels: Apple Design Resources, https://developer.apple.com/design/resources/
+    MacBook Pro: https://devimages-cdn.apple.com/design/resources/download/Bezel-MacBook-Pro-M5.dmg
+    iMac: https://devimages-cdn.apple.com/design/resources/download/Bezel-iMac-M4.dmg
+    Device artwork remains unmodified. Apple retains ownership of its artwork.
+    Screen images: actual Relay captures. Background and screen image nodes are independently replaceable.
+  </metadata>
+  <defs>
+    <linearGradient id="pearl-base" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#fbfbf8"/>
+      <stop offset="0.56" stop-color="#f3f4f0"/>
+      <stop offset="1" stop-color="#e9eeea"/>
+    </linearGradient>
+    <radialGradient id="pearl-light" cx="0.25" cy="0.22" r="0.69">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sage-light" cx="0.87" cy="0.87" r="0.75">
+      <stop offset="0" stop-color="#b8cfc0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#b8cfc0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="imac-display-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="140" y="150" width="4480" height="2520"/>
+    </clipPath>
+    <clipPath id="macbook-display-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="402" y="303" width="3456" height="2234"/>
+    </clipPath>
+  </defs>
+  <g id="background" inkscape:groupmode="layer" inkscape:label="01 · Background — replace independently">
+    <title>Replaceable background</title>
+    <rect id="background-base" width="4000" height="2662" fill="url(#pearl-base)"/>
+    <rect id="background-light" width="4000" height="2662" fill="url(#pearl-light)"/>
+    <rect id="background-sage" width="4000" height="2662" fill="url(#sage-light)"/>
+  </g>
+  <g id="imac" inkscape:groupmode="layer" inkscape:label="02 · iMac — Green"
+     transform="translate(1369.762611276 284.400169563) scale(0.487494701145)">
+    <title>24-inch iMac · Green</title>
+    <g id="imac-screen" inkscape:label="Screen · New Relay · replace this image" clip-path="url(#imac-display-clip)">
+      <image id="imac-screen-image" x="140" y="150" width="4480" height="2520"
+             preserveAspectRatio="xMidYMid meet" xlink:href="Screens/iMac%20%E2%80%94%20New%20Relay.png"/>
+    </g>
+    <g id="imac-hardware" inkscape:label="Apple original bezel · unchanged">
+      <image id="imac-bezel-image" x="0" y="0" width="4760" height="4050" xlink:href="Bezels/iMac%20M4%2024-inch%20Green.png"/>
+    </g>
+  </g>
+  <g id="macbook-pro" inkscape:groupmode="layer" inkscape:label="03 · MacBook Pro — Space Black"
+     transform="translate(251.232227488 1121.718009479) scale(0.438388625592)">
+    <title>16-inch MacBook Pro · Space Black</title>
+    <g id="macbook-screen" inkscape:label="Screen · Design Review · replace this image" clip-path="url(#macbook-display-clip)">
+      <image id="macbook-screen-image" x="402" y="303" width="3456" height="2234"
+             preserveAspectRatio="xMidYMid meet" xlink:href="Screens/MacBook%20Pro%20%E2%80%94%20Design%20Review.png"/>
+    </g>
+    <g id="macbook-hardware" inkscape:label="Apple original bezel · unchanged">
+      <image id="macbook-bezel-image" x="0" y="0" width="4260" height="2840" xlink:href="Bezels/MacBook%20Pro%20M5%2016-inch%20Space%20Black.png"/>
+    </g>
+  </g>
+</svg>

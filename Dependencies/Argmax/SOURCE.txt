@@ -1,0 +1,6 @@
+Argmax OSS Swift 1.1.1
+Source: https://github.com/argmaxinc/argmax-oss-swift/releases/tag/v1.1.1
+Archive: https://codeload.github.com/argmaxinc/argmax-oss-swift/tar.gz/refs/tags/v1.1.1
+SHA-256: 65a0dc984802026d03382a32af234ba0cdde3b49de5a19f4df711bc9fee9f0fe
+Included targets: ArgmaxCore and WhisperKit. Original source files are unmodified.
+The local Package.swift removes unrelated CLI, TTS, speaker, test, and remote package targets.

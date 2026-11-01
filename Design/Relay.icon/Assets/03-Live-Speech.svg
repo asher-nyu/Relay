@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="mint" x1="0" y1="380" x2="0" y2="885" gradientUnits="userSpaceOnUse"><stop stop-color="#96E8D8"/><stop offset="1" stop-color="#81DCC8"/></linearGradient></defs>
+  <path fill="url(#mint)" d="M531 380H757C828 380 885 437 885 508V682C885 736 852 783 805 802V867C805 882 790 891 777 882L669 810H531C460 810 403 753 403 682V508C403 437 460 380 531 380Z"/>
+</svg>

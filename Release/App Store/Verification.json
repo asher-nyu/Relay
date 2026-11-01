@@ -1,0 +1,32 @@
+{
+  "screenshots": [
+    {
+      "path": "/Users/asherbloom/Downloads/Relay/Release/App Store/Screenshots/01-Design Review.png",
+      "bytes": 6320949,
+      "sha256": "110080c16c91edaed4a367202b70aae53cca0171416489ff6f82657620f6fa42",
+      "width": 2880,
+      "height": 1800,
+      "pngColorType": 2,
+      "expectedColorType": "2 = truecolour RGB, no alpha",
+      "visualInspection": "Complete app window visible; fictional scenarios only; no cursor, menu bar, Dock, unrelated windows or private data."
+    },
+    {
+      "path": "/Users/asherbloom/Downloads/Relay/Release/App Store/Screenshots/02-New Relay.png",
+      "bytes": 5148824,
+      "sha256": "3c931907f30b9c2a4cc3881b10bd2e9d849d010855939bc0541357061b691db4",
+      "width": 2880,
+      "height": 1800,
+      "pngColorType": 2,
+      "expectedColorType": "2 = truecolour RGB, no alpha",
+      "visualInspection": "Complete app window visible; fictional scenarios only; no cursor, menu bar, Dock, unrelated windows or private data."
+    }
+  ],
+  "metadataLengths": {
+    "subtitle": 30,
+    "promotionalText": 148,
+    "description": 1365,
+    "keywords": 87
+  },
+  "originalScreenshotsModified": false,
+  "gitOperationsPerformed": false
+}

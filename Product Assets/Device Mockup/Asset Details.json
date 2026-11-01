@@ -1,0 +1,57 @@
+{
+  "canvas": {
+    "width": 4000,
+    "height": 2662
+  },
+  "hardware": {
+    "macbook": {
+      "visible_x": 260.0,
+      "visible_y": 1230.0,
+      "visible_width": 1850.0,
+      "scale": 0.43838862559241704,
+      "transform": [
+        251.23222748815166,
+        1121.718009478673
+      ],
+      "native_display": [
+        3456,
+        2234
+      ]
+    },
+    "imac": {
+      "visible_x": 1380.0,
+      "visible_y": 300.0,
+      "visible_width": 2300.0,
+      "scale": 0.4874947011445528,
+      "transform": [
+        1369.7626112759644,
+        284.40016956337433
+      ],
+      "native_display": [
+        4480,
+        2520
+      ]
+    },
+    "horizontal_overlap": 730.0,
+    "foreground": "macbook-pro",
+    "background_device": "imac"
+  },
+  "assets": {
+    "mac-screen": {
+      "path": "Screens/MacBook Pro \u2014 Design Review.png",
+      "sha256": "99a5c6140af08dfbbcb8609ddaa6ec7ea1094c9eae40bf587f94aee2696c8f40"
+    },
+    "imac-screen": {
+      "path": "Screens/iMac \u2014 New Relay.png",
+      "sha256": "8ecb691eb65514c81e39dca8b804879bccf952297ba470ba31e31e9bdf367dbe"
+    },
+    "mac-bezel": {
+      "path": "Bezels/MacBook Pro M5 16-inch Space Black.png",
+      "sha256": "ba2c4d19936aeb3587aab48b4c78c5c5622df34fead02385e094e799ae1622f0"
+    },
+    "imac-bezel": {
+      "path": "Bezels/iMac M4 24-inch Green.png",
+      "sha256": "d2bc363439dc949bf6dd524787de106d2227acdd95ad276fc759aeeabb41413a"
+    }
+  }
+}

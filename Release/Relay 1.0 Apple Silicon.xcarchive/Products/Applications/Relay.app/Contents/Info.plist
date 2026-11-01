@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>26A434</string>
+	<key>CFBundleDisplayName</key>
+	<string>Relay</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>Relay.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Relay Transcript</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.asherbloom.relay.transcript</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Relay</string>
+	<key>CFBundleIconFile</key>
+	<string>Relay</string>
+	<key>CFBundleIconName</key>
+	<string>Relay</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.asherbloom.Relay</string>
+	<key>CFBundleName</key>
+	<string>Relay</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>26A425</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>27.0</string>
+	<key>DTSDKBuild</key>
+	<string>26A425</string>
+	<key>DTSDKName</key>
+	<string>macosx27.0</string>
+	<key>DTXcode</key>
+	<string>2710</string>
+	<key>DTXcodeBuild</key>
+	<string>27A9275</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAccentColorName</key>
+	<string>AccentColor</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Relay uses system audio to transcribe playback and reduce speaker echo in microphone recordings.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Asher Bloom. All rights reserved.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Relay uses your microphone to transcribe what you say, on this Mac.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Relay uses system audio to transcribe playback and reduce speaker echo. Relay does not record your screen.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Relay converts speech into a live transcript on this Mac.</string>
+	<key>NSUbiquitousContainers</key>
+	<dict>
+		<key>iCloud.com.asherbloom.Relay</key>
+		<dict>
+			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
+			<true/>
+			<key>NSUbiquitousContainerName</key>
+			<string>Relay</string>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<string>Any</string>
+		</dict>
+	</dict>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.json</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Relay Transcript</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.asherbloom.relay.transcript</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>relay</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>application/vnd.asherbloom.relay+json</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

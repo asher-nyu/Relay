@@ -1,0 +1,38 @@
+{
+  "name": "Relay: Live Transcription",
+  "platform": "MAC_OS",
+  "version": "1.0",
+  "releaseType": "INITIAL_RELEASE",
+  "locale": "en-US",
+  "subtitle": "On-device Speech to Text",
+  "promotionalText": "Turn what you hear and say into text. Copy a passage as you select it, pause and return later, and keep the full conversation in a file you control.",
+  "description": "Keep the words that matter.\n\nRelay turns what you hear and say on your Mac into a live transcript. Follow a discussion, revisit a lesson, or capture a thought without losing the thread.\n\nChoose audio playing on your Mac, your microphone, or both. Source labels and timestamps keep the conversation in context, while speaker echo reduction helps reduce playback picked up by the microphone.\n\nSelect a passage and it is copied automatically. Keep dragging to refine the selection—the clipboard updates with it. When you need the whole conversation, copy the full transcript or export it as plain text or Markdown with its source labels and timestamps.\n\nPause whenever you need. Return to the same Relay later and continue where you left off, including after reopening the app. Each conversation remembers its audio sources and language.\n\nTranscripts are saved as .relay files, with iCloud Drive as the default location. Rename, move, and manage them in Relay or Finder.\n\nSpeech recognition and automatic language detection run on your Mac. Relay does not save an audio recording, require an account, or send your audio and transcripts to a transcription service. Language models may download before their first use.\n\nRequires a Mac with Apple silicon and macOS 26 or later. Relay requests microphone and system-audio access; it does not capture or save screen images.",
+  "keywords": "transcribe,transcript,speech,audio,microphone,meeting,lecture,notes,dictation,clipboard",
+  "supportUrl": "https://relay.asher-nyu.com/",
+  "privacyPolicyUrl": "https://relay.asher-nyu.com/privacy",
+  "copyright": "Copyright © 2026 Asher Bloom. All rights reserved.",
+  "primaryCategory": "PRODUCTIVITY",
+  "pricing": {
+    "type": "FREE",
+    "price": 0,
+    "currency": "USD"
+  },
+  "requirements": {
+    "minimumMacOS": "26.0",
+    "architecture": "arm64",
+    "hardware": "Mac with Apple silicon"
+  },
+  "reviewContact": {
+    "firstName": "Asher",
+    "lastName": "Bloom",
+    "email": "asherbloom@nyu.edu",
+    "phoneNumber": "+12123700828"
+  },
+  "reviewNotes": "Relay is a Mac-only live transcription app. No account or sign-in is required. It requires a Mac with Apple silicon and macOS 26 or later; the distribution build is arm64.\n\nOn first launch, grant Microphone and Screen & System Audio Recording access. Both permissions are required because system audio is also used locally as the microphone echo-cancellation reference. Relay captures audio only and does not receive or save screen images.\n\nChoose a language and System audio, Microphone, or both, then click Start Transcription. Language models may need an initial download, so internet access may be needed for first-time preparation. Speech recognition and automatic language detection run on the Mac. Auto Detect identifies the opening language; it does not continuously switch languages.\n\nFor a simple test, select Microphone and speak using the Mac’s built-in microphone. To test System audio, play spoken audio in another app. Pause saves the conversation; Resume continues in the same file. Select transcript text to copy it automatically. Copy Transcript and Export Transcript are available after pausing.\n\nRelay creates its transcript folder in iCloud Drive when available, with local storage as a fallback. Only transcript text and associated metadata are saved; the original audio is not saved.",
+  "screenshots": [
+    "Screenshots/01-Design Review.png",
+    "Screenshots/02-New Relay.png"
+  ],
+  "appStoreId": "6825155109",
+  "automaticReleaseAfterApproval": true
+}

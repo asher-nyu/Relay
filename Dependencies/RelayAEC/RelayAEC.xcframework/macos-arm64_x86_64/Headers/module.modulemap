@@ -1,0 +1,4 @@
+module RelayAECBinary {
+    header "RelayAEC.h"
+    export *
+}

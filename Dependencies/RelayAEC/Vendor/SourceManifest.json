@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "filename": "webrtc-audio-processing-2.1.tar.xz",
+      "url": "https://gstreamer.freedesktop.org/src/mirror/webrtc-audio-processing/webrtc-audio-processing-2.1.tar.xz",
+      "sha256": "ae9302824b2038d394f10213cab05312c564a038434269f11dbf68f511f9f9fe",
+      "bytes": 604192
+    },
+    {
+      "filename": "abseil-cpp-20240722.0.tar.gz",
+      "url": "https://github.com/abseil/abseil-cpp/releases/download/20240722.0/abseil-cpp-20240722.0.tar.gz",
+      "sha256": "f50e5ac311a81382da7fa75b97310e4b9006474f9560ac46f54a9967f07d4ae3",
+      "bytes": 2242861
+    },
+    {
+      "filename": "abseil-cpp_20240722.0-3_patch.zip",
+      "url": "https://wrapdb.mesonbuild.com/v2/abseil-cpp_20240722.0-3/get_patch",
+      "sha256": "12dd8df1488a314c53e3751abd2750cf233b830651d168b6a9f15e7d0cf71f7b",
+      "bytes": 5929
+    }
+  ]
+}

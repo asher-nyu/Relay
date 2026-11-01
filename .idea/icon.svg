@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="relay-icon-title relay-icon-description">
+  <title id="relay-icon-title">Relay</title>
+  <desc id="relay-icon-description">Editable vector version of Relay's approved icon: an ivory transcript bubble in front of a mint speech bubble on a teal background. The speech-bubble paths and transcript lines use the original Icon Composer SVG artwork.</desc>
+  <defs>
+    <linearGradient id="teal" x1="300" y1="0" x2="660" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#195E68"/>
+      <stop offset="0.53" stop-color="#0E515B"/>
+      <stop offset="1" stop-color="#094951"/>
+    </linearGradient>
+    <linearGradient id="ivory" x1="0" y1="226" x2="0" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFAF5"/>
+      <stop offset="1" stop-color="#F5F1E9"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="380" x2="0" y2="885" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#96E8D8"/>
+      <stop offset="1" stop-color="#81DCC8"/>
+    </linearGradient>
+    <linearGradient id="background-edge" x1="320" y1="0" x2="650" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9FE5E9" stop-opacity="0.66"/>
+      <stop offset="0.12" stop-color="#7DC6CC" stop-opacity="0.13"/>
+      <stop offset="0.74" stop-color="#C2F5EF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#A4E7E8" stop-opacity="0.59"/>
+    </linearGradient>
+    <linearGradient id="mint-edge" x1="510" y1="380" x2="812" y2="885" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DEFFF6" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#B6F6E7" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#CDFDF1" stop-opacity="0.66"/>
+    </linearGradient>
+    <linearGradient id="ivory-edge" x1="240" y1="226" x2="600" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#F1EDE5" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.96"/>
+    </linearGradient>
+    <path id="icon-shape" d="M316 1H708C819 1 899 18 951 70C1003 122 1023 202 1023 316V708C1023 822 1003 902 951 954C899 1006 819 1023 708 1023H316C202 1023 122 1006 70 954C18 902 1 822 1 708V316C1 202 18 122 70 70C122 18 202 1 316 1Z"/>
+    <path id="live-speech-shape" d="M531 380H757C828 380 885 437 885 508V682C885 736 852 783 805 802V867C805 882 790 891 777 882L669 810H531C460 810 403 753 403 682V508C403 437 460 380 531 380Z"/>
+    <path id="written-record-shape" d="M272 226H594C674 226 738 290 738 370V574C738 654 674 718 594 718H358L246 791C232 800 218 791 218 775V708C164 686 128 634 128 574V370C128 290 192 226 272 226Z"/>
+    <clipPath id="icon-clip"><use href="#icon-shape"/></clipPath>
+    <filter id="speech-shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#033A40" flood-opacity="0.12"/>
+    </filter>
+    <filter id="record-shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="1" dy="3" stdDeviation="3" flood-color="#234A46" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <g id="background" inkscape:groupmode="layer" inkscape:label="Background">
+    <use href="#icon-shape" fill="url(#teal)"/>
+    <g clip-path="url(#icon-clip)">
+      <use href="#icon-shape" fill="none" stroke="url(#background-edge)" stroke-width="12"/>
+    </g>
+  </g>
+  <g id="live-speech" inkscape:groupmode="layer" inkscape:label="Live speech">
+    <use href="#live-speech-shape" fill="url(#mint)" filter="url(#speech-shadow)"/>
+    <use href="#live-speech-shape" fill="none" stroke="url(#mint-edge)" stroke-width="3"/>
+  </g>
+  <g id="written-record" inkscape:groupmode="layer" inkscape:label="Written record">
+    <use href="#written-record-shape" fill="url(#ivory)" filter="url(#record-shadow)"/>
+    <use href="#written-record-shape" fill="none" stroke="url(#ivory-edge)" stroke-width="3"/>
+  </g>
+  <g id="transcript-lines" inkscape:groupmode="layer" inkscape:label="Transcript lines" fill="#B3B7BA">
+    <rect x="267" y="369" width="361" height="75" rx="37.5"/>
+    <rect x="267" y="504" width="282" height="75" rx="37.5"/>
+  </g>
+</svg>

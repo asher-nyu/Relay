@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="ivory" x1="0" y1="226" x2="0" y2="790" gradientUnits="userSpaceOnUse"><stop stop-color="#FCFAF5"/><stop offset="1" stop-color="#F5F1E9"/></linearGradient></defs>
+  <path fill="url(#ivory)" d="M272 226H594C674 226 738 290 738 370V574C738 654 674 718 594 718H358L246 791C232 800 218 791 218 775V708C164 686 128 634 128 574V370C128 290 192 226 272 226Z"/>
+</svg>
