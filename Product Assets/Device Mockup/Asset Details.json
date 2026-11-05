@@ -38,12 +38,30 @@
   },
   "assets": {
     "mac-screen": {
-      "path": "Screens/MacBook Pro \u2014 Design Review.png",
-      "sha256": "99a5c6140af08dfbbcb8609ddaa6ec7ea1094c9eae40bf587f94aee2696c8f40"
+      "path": "Screens/MacBook Pro — New Relay.png",
+      "sha256": "37bbfb74ffaae7577cd96378d89f74b3b9a7aa5f954e96f6a9fb0198eaa071fb",
+      "source_pixels": [
+        3456,
+        2234
+      ],
+      "window_size_points": [
+        940,
+        450
+      ],
+      "screen_fit": "Full native display, captured at 2× and centered"
     },
     "imac-screen": {
-      "path": "Screens/iMac \u2014 New Relay.png",
-      "sha256": "8ecb691eb65514c81e39dca8b804879bccf952297ba470ba31e31e9bdf367dbe"
+      "path": "Screens/iMac — Design Review.png",
+      "sha256": "e5862df5b02165eaeff7ae1d1fd7b95cc1fced0e164ab6c4ef3f79ab602f1372",
+      "source_pixels": [
+        4480,
+        2520
+      ],
+      "window_size_points": [
+        1570,
+        850
+      ],
+      "screen_fit": "Full native display, captured at 2× and centered"
     },
     "mac-bezel": {
       "path": "Bezels/MacBook Pro M5 16-inch Space Black.png",

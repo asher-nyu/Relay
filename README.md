@@ -2,6 +2,10 @@
 
 Relay transcribes audio playing on your Mac and speech from your microphone into a live, selectable transcript. Select any passage to copy the spoken words automatically; the clipboard keeps updating while you drag. Only spoken words are highlighted and copied; source labels and timestamps remain visible as context. Pause a Relay to copy the full transcript or export it as plain text or Markdown, retaining source labels and timestamps. Saved Relays can be resumed later.
 
+[Relay on the App Store](https://apps.apple.com/us/app/relay-live-transcription/id6825155109)
+
+![Relay on Mac](Product%20Assets/Device%20Mockup/Relay%20Device%20Mockup.png)
+
 ## Using Relay
 
 On first launch, Relay requests microphone and system-audio access and opens the relevant macOS Privacy settings when access needs to be enabled. Setup remains visible until both permissions are granted. Apple groups system-audio access under **Screen & System Audio Recording**; Relay consumes audio, without receiving or saving screen frames.
@@ -44,6 +48,12 @@ If Auto Detect cannot confidently identify the opening speech, select a language
 | Export a transcript | ⌘E |
 
 ## Development
+
+In Terminal, switch to an empty folder and clone Relay into it.
+
+```sh
+git clone git@github.com:asher-nyu/Relay.git .
+```
 
 Open `Relay.xcodeproj` in Xcode. The project contains the Mac app, Swift Testing unit tests, and XCTest interface tests. Development uses Xcode 27.1 and Swift 6; the application targets macOS 26 or later and requires a Mac supported by Apple's on-device SpeechTranscriber.
 
